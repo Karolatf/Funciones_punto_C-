@@ -5,3 +5,4 @@ function contarHasta(numero){
     }
    
     export { contarHasta };
+// Esta función muestra en consola todos los números desde 1 hasta el número indicado.

@@ -1,4 +1,4 @@
-import {saludoPersonalizado, notas, contarHasta, subtotal, calcularIva, totalaPagar} from "./modulos/index.js";
+import {saludoPersonalizado, notas, contarHasta, subtotal, calcularIva, totalaPagar, esPrimo} from "./modulos/index.js";
 console.log(saludoPersonalizado("Karol"));
 
 // let nota1 = parseFloat(prompt("Ingrese la primera nota:"));
@@ -13,4 +13,5 @@ console.log(saludoPersonalizado("Karol"));
 // let precio = parseFloat(prompt("Ingrese el precio del producto:"));
 // console.log ("el total a pagar es: " + totalaPagar(cantidad, precio, 19));
 
-
+let ingrese = parseInt(prompt("Ingrese un número para saber si es primo:"));
+console.log(esPrimo(ingrese));
